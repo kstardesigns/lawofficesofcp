@@ -1,7 +1,1 @@
-/* Fonts */
-/* Variables */
-/* Partials */
-.single-post {
-  opacity: 1; }
-
-/*# sourceMappingURL=main.css.map */
+.page #site-logo{float:none;height:auto;display:block}.page #site-header-inner{padding:25px 61px 22px 36px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.page #site-navigation-wrap{float:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.page #site-header.full_screen-header .fs-dropdown-menu>li>a,.page #site-navigation-wrap .dropdown-menu>li>a,.page .oceanwp-mobile-menu-icon a{font-size:32px;line-height:44px;letter-spacing:0;text-transform:uppercase;color:#2b2e34;padding:0}.page #site-navigation-wrap .dropdown-menu>li{padding:0 35px}.page #site-navigation-wrap .dropdown-menu>li:last-child{padding-right:0}

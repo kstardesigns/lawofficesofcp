@@ -1,0 +1,45 @@
+//global
+body {
+    
+}
+
+//header 
+.page {
+
+    #site-logo {
+        float: none; 
+        height: auto;
+        display: block;
+    }
+
+    #site-header-inner {
+        padding: 25px 61px 22px 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #site-navigation-wrap {
+        float: none;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #site-navigation-wrap .dropdown-menu > li > a, 
+    #site-header.full_screen-header .fs-dropdown-menu > li > a, 
+    .oceanwp-mobile-menu-icon a {
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        color: $black;
+        padding: 0;
+    }
+
+    #site-navigation-wrap .dropdown-menu > li {
+        padding: 0 35px;
+    }
+
+    #site-navigation-wrap .dropdown-menu > li:last-child {
+        padding-right: 0;
+    }
+}

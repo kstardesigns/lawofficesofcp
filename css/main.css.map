@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAEA,WAAW;AAIX,eAAe;AAIf,cAAc;ACVd,YAAa;EACT,OAAO,EAAE,CAAC",
-"sources": ["main.scss","_news-articles.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA,yBAAyB,2BAA2B,CAAC,YAAY,CAAC,6BAA6B,CAAC,4BAA4B,UAAU,CAAC,eAAe,CAAC,aAAa,CAAC,+IAA+I,cAAc,CAAC,gBAAgB,CAAC,gBAAgB,CAAC,wBAAwB,CAAC,aAAa,CAAC,SAAS,CAAC,8CAA8C,cAAc,CAAC,yDAAyD,eAAe;;AAE3hB,mCAAmC","file":"main.css","sourcesContent":[".page #site-header-inner{padding:25px 61px 22px 36px;display:flex;justify-content:space-between}.page #site-navigation-wrap{float:none;position:static;right:initial}.page #site-navigation-wrap .dropdown-menu>li>a,.page #site-header.full_screen-header .fs-dropdown-menu>li>a,.page .oceanwp-mobile-menu-icon a{font-size:32px;line-height:44px;letter-spacing:0;text-transform:uppercase;color:#2b2e34;padding:0}.page #site-navigation-wrap .dropdown-menu>li{padding:0 35px}.page #site-navigation-wrap .dropdown-menu>li:last-child{padding-right:0}\n"]}
