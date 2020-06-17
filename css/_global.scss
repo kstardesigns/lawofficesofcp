@@ -1,10 +1,12 @@
 //global
 body {
-    
+    &.sidr-open {
+        top: 0;
+    }
 }
 
 //header 
-.page {
+.page, .search {
 
     #site-logo {
         float: none; 
@@ -12,14 +14,55 @@ body {
         display: block;
     }
 
+    #site-logo #site-logo-inner {
+        height: auto;
+    }
+
+    #site-logo #site-logo-inner a img {
+        @media screen and (max-width: 1700px) {
+            max-width: 275px;
+        }
+
+        @media screen and (max-width: 1320px) {
+            max-width: 225px;
+        }
+
+        @media screen and (max-width: 959px) {
+            max-width: 185px;
+        }
+
+        @media screen and (max-width: 360px) {
+            max-width: 150px;
+        }
+    }
+
     #site-header-inner {
         padding: 25px 61px 22px 36px;
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 1320px) {
+            padding: 22px 36px;
+        }
+
+        @media screen and (max-width: 959px) {
+            padding: 16px 20px;
+        }
+
+        @media screen and (max-width: 450px) {
+            padding: 10px 15px;
+        }
+
+        &:after {
+            content: '';
+            display: none;
+        }
     }
 
     #site-navigation-wrap {
         float: none;
+        position: static;
+        right: initial;
         display: flex;
         align-items: flex-end;
     }
@@ -33,13 +76,278 @@ body {
         text-transform: uppercase;
         color: $black;
         padding: 0;
+
+        @media screen and (max-width: 1700px) {
+            font-size: 26px;
+            line-height: 36px;
+        }
+
+        @media screen and (max-width: 1240px) {
+            font-size: 21px;
+            line-height: 29px;
+        }
+    }
+
+    #site-navigation-wrap .dropdown-menu > li > a:hover, 
+    .oceanwp-mobile-menu-icon a:hover, 
+    #searchform-header-replace-close:hover,
+    .sidr a:hover, 
+    .sidr-class-dropdown-toggle:hover, 
+    .sidr-class-menu-item-has-children.active > a,
+    .sidr-class-menu-item-has-children.active > a > .sidr-class-dropdown-toggle {
+        color: $brown;
+    }
+
+    .page .oceanwp-mobile-menu-icon a {
+        @media screen and (max-width: 1240px) {
+           line-height: 21px;;
+        }
     }
 
     #site-navigation-wrap .dropdown-menu > li {
         padding: 0 35px;
+
+        @media screen and (max-width: 1460px) {
+            padding: 0 20px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            padding: 0 14px;
+        }
+    }
+
+    .sf-menu ul.sub-menu {
+        background-color: $white;
+        margin-left: 35px;
+        top: 110%;
+
+        @media screen and (max-width: 1460px) {
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            margin-left: 14px;
+        }
     }
 
     #site-navigation-wrap .dropdown-menu > li:last-child {
         padding-right: 0;
+    }
+
+    #site-navigation-wrap .dropdown-menu > li > a .nav-arrow {
+        font-size: 24px;
+        padding-left: 0;
+        position: relative;
+        top: -2px;
+
+        @media screen and (max-width: 1700px) {
+            font-size: 20px;
+            top: 0;
+        }
+    }
+
+    #menu-item-27 {
+        //hides 'home' menu item on desktop when it doesn't fit since the logo also goes home
+        @media screen and (max-width: 1100px) {
+            display: none;
+        }
+    }
+
+    .oceanwp-mobile-menu-icon.mobile-right {
+        float: none;
+
+        @media screen and (max-width: 959px) {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .sidr-class-dropdown-menu li a, 
+    .sidr-class-fs-dropdown-menu li a {
+        text-transform: uppercase;
+    }
+
+    .sidr a {
+        color: $black;
+    }
+
+    a.sidr-class-toggle-sidr-close {
+        line-height: 10px;
+    }
+
+    .sidr-class-mobile-searchform button {
+        top: 7px;
+        right: 6px;
+        margin-top: 0;
+    }
+
+    .sidr-class-dropdown-toggle {
+        top: -3px;
+    }
+
+    .sidr-class-dropdown-menu ul a:before {
+        display: none;
+    }
+
+    .sidr-class-text-wrap {
+        padding-top: 2px;
+        display: inline-block;
+    }
+
+    .sidr-class-sub-menu {
+        .sidr-class-text-wrap {
+            padding-left: 20px;
+        }
+    }
+
+    .dropdown-menu .sub-menu {
+        border-top: 3px solid $mint;
+        min-width: 230px;
+    }
+
+    .dropdown-menu ul li a.menu-link {
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .dropdown-menu ul li a.menu-link .text-wrap {
+        display: inline-block;
+        padding-top: 3px;
+    }
+}
+
+//footer
+.page, .search {
+    
+    #footer-widgets {
+        padding: 0;
+    }
+
+    #footer-widgets .footer-box {
+        padding: 27px 20px 20px;
+    }
+
+    #footer-widgets .footer-box .footer-widget {
+        margin-bottom: 0;
+    }
+
+    #footer-widgets .col {
+        @media screen and (max-width: 959px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .footer-widgets-inner.container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    //address
+    .footer-box.span_1_of_2.col-1 {
+        width: 100%;
+        position: relative;
+    }
+
+    .footer-box.span_1_of_2.col-2 {
+        display: none;
+    }
+
+    .footer-logo {
+        display: block;
+        margin: 0 auto;
+
+        display: none; //temp until image is ready
+    }
+
+    .footer-address {
+        font-size: 22px;
+        line-height: 31px;
+        text-align: center;
+        margin-bottom: 0;
+
+        @media screen and (max-width: 1460px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        
+        .footer-phone {
+            font-size: 16px;
+            line-height: 8px;
+            display: block;
+
+            @media screen and (max-width: 1460px) {
+                font-size: 14px;
+                line-height: 11px;
+            }
+        }
+    }
+
+    //social 
+    .footer-widget.social-widget {
+        width: 275px;
+        position: absolute;
+        bottom: 25px;
+        right: 58px;
+
+        @media screen and (max-width: 1460px) {
+            width: 150px;
+        }
+
+        @media screen and (max-width: 850px) {
+            position: static;
+            margin: 20px auto;
+            display: block;
+        }
+    }
+
+    .footer-widget.social-widget ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #footer-widgets .social-widget li {
+        &.oceanwp-facebook {
+            a {
+                background: url('https://lawofficesofcp.com/wp-content/uploads/2020/06/fb.svg') no-repeat top center;
+                width: 72px;
+                height: 80px;
+
+                @media screen and (max-width: 1460px) {
+                    width: 36px;
+                    height: 40px;
+                }
+            }
+        }
+
+        &.oceanwp-instagram {
+            a {
+                background: url('https://lawofficesofcp.com/wp-content/uploads/2020/06/insta.svg') no-repeat top center;
+                width: 72px;
+                height: 80px;
+
+                @media screen and (max-width: 1460px) {
+                    width: 36px;
+                    height: 40px;
+                }
+            }
+        }
+
+        &.oceanwp-yelp {
+            a {
+                background: url('https://lawofficesofcp.com/wp-content/uploads/2020/06/yelp.svg') no-repeat top center;
+                width: 67px;
+                height: 88px;
+
+                @media screen and (max-width: 1460px) {
+                    width: 33.5px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+
+    #footer-widgets .social-widget li a i {
+        display: none;
     }
 }
