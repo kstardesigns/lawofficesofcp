@@ -109,7 +109,7 @@ body {
 
         @media screen and (max-width: 1460px) {
             padding: 0 20px;
-        }
+        } 
 
         @media screen and (max-width: 1100px) {
             padding: 0 14px;
@@ -216,8 +216,181 @@ body {
     }
 }
 
+//global contact form 
+.page {
+    .elementor-form {
+        .elementor-field-label {
+            font-family: $vollkorn;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 35px !important;
+            line-height: 48px;
+            color: #6e6e6e !important;
+            position: absolute;
+            top: 33px;
+            left: 55px;
+            transition: all 500ms;
+
+            @media screen and (max-width: 1700px) {
+                font-size: 26px !important;
+                line-height: 36px;
+                top: 24px;
+                left: 35px;
+            }
+
+            @media screen and (max-width: 959px) {
+                font-size: 22px !important;
+                line-height: 30px;
+                top: 19px;
+                left: 30px;
+            }
+
+            &.with-text {
+                top: -41px;
+                left: 10px;
+                font-size: 25px !important;
+                color: white !important;
+                transition: all 500ms;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+
+                @media screen and (max-width: 1700px) {
+                    top: -34px; 
+                }
+
+                @media screen and (max-width: 959px) {
+                    font-size: 22px !important;
+                    top: -28px;
+                }
+            }
+        }
+
+        .elementor-mark-required .elementor-field-label:after {
+            content: '';
+            display: none;
+        }
+
+        .elementor-field {
+            border: none !important;
+            background-color: rgba(255,255,255,0.92) !important;
+            width: 100%;
+            max-width: 1045px !important;
+            border-radius: 0;
+            height: 115px;
+            font-family: $vollkorn;
+            font-weight: bold;
+            font-style: italic; 
+            font-size: 35px !important;
+            line-height: 40px;
+            color: $gray !important;
+            padding-left: 30px !important;
+
+            @media screen and (max-width: 1700px) {
+                height: 85px;
+                font-size: 26px !important;
+                line-height: 30px;
+                padding-left: 22px !important;
+                max-width: 775px !important;
+            }
+
+            @media screen and (max-width: 959px) {
+                height: 65px;
+                font-size: 22px !important;
+                padding-left: 25px !important;
+                max-width: 700px !important;
+            }
+        }
+
+        textarea.elementor-field {
+            height: 312px;
+            padding-top: 26px !important;
+            padding-bottom: 26px !important;
+
+            @media screen and (max-width: 1700px) {
+                height: 235px;
+                padding-top: 22px !important;
+                padding-bottom: 22px !important;
+            }
+
+            @media screen and (max-width: 959px) {
+                height: 190px;
+                padding-top: 16px !important;
+                padding-bottom: 16px !important;
+            }
+        }
+
+        .elementor-field-group {
+            position: relative;
+            margin-bottom: 41px !important;
+        }
+
+        .elementor-button {
+            border-radius: 25px;
+            background-color: $white !important;
+            color: #000 !important;
+            width: 313px;
+            height: 115px;
+            font-family: $vollkorn;
+            font-weight: 900;
+            font-size: 35px;    
+            line-height: 115px;
+            letter-spacing: 0;
+
+            @media screen and (max-width: 1700px) {
+                width: 231px;
+                height: 85px;
+                font-size: 26px;
+                line-height: 85px;
+            }
+
+            @media screen and (max-width: 959px) {
+                width: 177px;
+                height: 65px;
+                font-size: 22px;
+                line-height: 65px;
+            }
+
+            .elementor-button-icon {
+                display: none;
+            }
+        }
+    }
+
+    .elementor-widget-form {
+        margin: 50px auto 20px;
+        max-width: 1045px !important;
+
+        @media screen and (max-width: 1700px) {
+            max-width: 775px !important;
+        }
+
+        @media screen and (max-width: 959px) {
+            max-width: 700px !important;
+        }
+    }
+
+    .elementor-widget-form + .elementor-widget-text-editor p {
+        font-size: 28px;
+        line-height: 40px;
+        color: $gray;
+        text-align: center;
+        display: block;
+        margin: 0 auto 20px;
+        text-align: center;
+        font-family: 'Minion Pro', serif; 
+
+        @media screen and (max-width: 1700px) {
+            font-size: 22px;
+            line-height: 31px;
+        }
+    }
+}
+
 //footer
 .page, .search {
+
+    .site-footer {
+        margin-top: -2px;
+    }
     
     #footer-widgets {
         padding: 0;
