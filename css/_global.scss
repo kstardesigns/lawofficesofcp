@@ -218,6 +218,96 @@ body {
 
 //global contact form 
 .page {
+    .elementor-form-fields-wrapper {
+        position: relative;
+
+        & > .elementor-field-type-html.elementor-field-group {
+            position: absolute;
+            width: 333px;
+            margin-left: -396px;
+            margin-bottom: 0 !important;
+            
+            @media screen and (max-width: 1860px) {
+                margin-left: -366px;
+            }
+
+            @media screen and (max-width: 1800px) {
+                width: 264px;
+                margin-left: -306px;
+            }
+
+            @media screen and (max-width: 1580px) {
+                margin-left: -296px;
+            }
+
+            @media screen and (max-width: 1400px) {
+                width: 207px;
+                margin-left: -236px;
+            }
+
+            @media screen and (max-width: 1275px) {
+                position: static;
+                width: auto;
+                margin: 0 auto;
+            }
+
+            .contact-form-header {
+                .contact-form-header-copy {
+                    font-family: $vollkorn;
+                    font-weight: bold;
+                    color: $white;
+                    font-size: 61px;
+                    line-height: 85px;
+                    margin-bottom: 5px;
+                    text-align: center;
+
+                    @media screen and (max-width: 1800px) {
+                        font-size: 48px;
+                        line-height: 66px;
+                    }
+
+                    @media screen and (max-width: 1400px) {
+                        font-size: 38px;
+                        line-height: 52px;
+                    }
+
+                    @media screen and (max-width: 1275px) {
+                        font-size: 48px;
+                        line-height: 66px;
+                        text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        font-size: 38px;
+                        line-height: 52px;
+                    }
+                }
+        
+                .contact-form-header-image {
+                    width: 256px;
+                    display: block;
+                    margin: 0 auto 36px;
+
+                    @media screen and (max-width: 1800px) {
+                        width: 200px;
+                    }
+
+                    @media screen and (max-width: 1400px) {
+                        width: 156px;
+                    }
+
+                    @media screen and (max-width: 1275px) {
+                        width: 200px;
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        width: 156px;
+                    }
+                }
+            }
+        }
+    }
+
     .elementor-form {
         .elementor-field-label {
             font-family: $vollkorn;
@@ -427,12 +517,15 @@ body {
 
     .footer-logo {
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 20px;
+        width: 344px;
 
-        display: none; //temp until image is ready
+        @media screen and (max-width: 1460px) {
+            width: 274px;
+        }
     }
 
-    .footer-address {
+    .footer-address { 
         font-size: 22px;
         line-height: 31px;
         text-align: center;
