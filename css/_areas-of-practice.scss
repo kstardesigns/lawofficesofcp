@@ -1,19 +1,80 @@
 //areas of practice, dwi defense, criminal law, family law
 .page-id-12, .page-id-391, .page-id-21, .page-id-20 {
+    .areas-banner {
+        .elementor-widget-heading .elementor-heading-title {
+            font-family: $vollkorn;
+            font-weight: 900;
+            font-size: 96px;
+            line-height: 133px;
+            margin: 24px 0 0 40px;
+            color: $white;
 
+            @media screen and (max-width: 1780px) {
+                font-size: 5.39vw;
+                line-height: 7.47vw;
+                margin: 1.35vw 0 0 2.25vw;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 35px;
+                line-height: 48px;
+            }
+        }
+    }
+
+    .areas-inner {
+        .elementor-heading-title {
+            font-family: $vollkorn !important;
+            font-weight: bold !important;
+            font-size: 55px !important;
+            line-height: 76px !important;
+            color: $black !important;
+            margin-top: 42px;
+        }
+    }
 }
 
 //dwi defense only
 .page-id-391 {
+    .elementor-section.elementor-section-boxed.elementor-element-dd7e416>.elementor-container {
+        max-width: 100% !important;
+        height: 470px;
 
+        @media screen and (max-width: 1780px) {
+            height: 26.4vw;
+            min-height: 200px;
+        }
+    }
 }
 
 //criminal law only
 .page-id-21 {
+    .elementor-section.elementor-section-boxed.elementor-element-6746c3b>.elementor-container {
+        max-width: 100% !important;
+        height: 470px;
 
+        @media screen and (max-width: 1780px) {
+            height: 26.4vw;
+            min-height: 200px;
+        }
+    }
 }
 
 //family law only
 .page-id-20 {
+    .elementor-section.elementor-section-boxed.elementor-element-3107607>.elementor-container {
+        max-width: 100% !important;
+        height: 470px;
 
+        @media screen and (max-width: 1780px) {
+            height: 26.4vw;
+            min-height: 200px;
+        }
+    }
+
+    .areas-banner {
+        .elementor-widget-heading .elementor-heading-title {
+            color: #787a7e;
+        }
+    }
 }
