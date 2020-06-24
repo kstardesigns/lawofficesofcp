@@ -3,6 +3,30 @@ body {
     &.sidr-open {
         top: 0;
     }
+
+    //breadcrumbs area
+    .page-header {
+        display: none;
+    }
+
+    .custom-hr {
+        border: 0;
+        border-top: 7px solid $brown; 
+        width: 78%;
+        margin: 27px auto 24px;
+
+        @media screen and (max-width: 1300px) {
+            border-top: 5px solid $brown;
+        }
+
+        @media screen and (max-width: 959px) {
+            border-top: 4px solid $brown;
+        }
+
+        @media screen and (max-width: 450px) {
+            border-top: 3px solid $brown;
+        }
+    }
 }
 
 //header 
