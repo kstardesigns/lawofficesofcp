@@ -27,10 +27,35 @@ body {
             border-top: 3px solid $brown;
         }
     }
+
+    a:hover {
+        color: $brown;
+    }
+
+    #scroll-top {
+        border-radius: 50%;
+
+        &:hover {
+            background-color: $brown;
+        }
+
+        > span {
+            margin-top: -1px;
+        }
+    }
+
+    input[type="submit"] {
+        background-color: $brown;
+
+        &:hover {
+            background-color: darken($brown, 10%);
+        }
+    }
+
 }
 
 //header 
-.page, .search {
+.page, .search, .single-post {
 
     #site-logo {
         float: none; 
@@ -241,7 +266,7 @@ body {
 }
 
 //global contact form 
-.page {
+.page, .single-post {
     .elementor-form-fields-wrapper {
         position: relative;
 
@@ -500,7 +525,7 @@ body {
 }
 
 //footer
-.page, .search {
+.page, .search, .single-post {
 
     .site-footer {
         margin-top: -2px;
@@ -552,7 +577,7 @@ body {
     .footer-address { 
         font-size: 22px;
         line-height: 31px;
-        text-align: center;
+        text-align: center !important;
         margin-bottom: 0;
 
         @media screen and (max-width: 1460px) {

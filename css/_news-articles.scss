@@ -1,3 +1,255 @@
 .single-post {
- 
+    #main #content-wrap {
+        @media screen and (max-width: 1780px) {
+        }
+
+        @media screen and (max-width: 1300px) {
+            padding-top: 30px;
+        }
+
+        @media screen and (max-width: 959px) {
+            padding-bottom: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding-top: 20px;
+        }
+
+        @media screen and (max-width: 374px) {
+        }
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1800px !important;
+        padding: 40px 20px 80px;
+
+        @media screen and (max-width: 1780px) {
+            padding: 2vw 50px 4.49vw;
+        }
+
+        @media screen and (max-width: 1300px) {
+            padding-top: 3vw;
+        }
+
+        @media screen and (max-width: 959px) {
+            padding-top: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding: 20px 20px 40px;
+        }
+
+        .content-area {
+            float: none;
+            width: 100%;
+            padding-right: 0;
+            border-right: 0;
+        }
+
+        .single-post-title {
+            font-family: $vollkorn !important;
+            font-weight: bold !important;
+            font-size: 47px !important;
+            line-height: 55px !important;
+            color: $black !important;
+            display: block;
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+            @media screen and (max-width: 1780px) {
+                font-size: 2.53vw !important;
+                line-height: 2.93vw !important;
+            }
+    
+            @media screen and (max-width: 768px) {
+                font-size: 20px !important;
+                line-height: 22px !important;
+            }
+    
+            @media screen and (max-width: 374px) {
+                font-size: 15px !important;
+                line-height: 17px !important;
+            }
+        }
+
+        .meta {
+            font-family: $vollkorn;
+            font-size: 18px;
+            line-height: 25px;
+            color: $brown;
+            
+            @media screen and (max-width: 959px) {
+                margin-bottom: 10px;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            .meta-author, .meta-cat, .icon-clock, .meta-comments {
+                display: none;
+            }
+
+            li::after {
+                display: none;
+            }
+
+        }
+
+        p {
+            text-align: left;
+            font-family: $vollkorn;
+            font-size: 36px;
+            line-height: 42px;
+            margin-bottom: 20px;
+            color: $black !important;
+
+            @media screen and (max-width: 1780px) {
+                font-size: 2.02vw;
+                line-height: 2.35vw;
+                margin-bottom: 1.12vw;
+            }
+    
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+                line-height: 20px;
+                margin-bottom: 9px;
+            }
+    
+            @media screen and (max-width: 374px) {
+                font-size: 15px;
+                line-height: 18px;
+            }
+
+            a {
+                color: $brown;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        h2 {
+            font-size: 36px;
+
+            @media screen and (max-width: 1780px) {
+                font-size: 2.02vw;
+            }
+    
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+            }
+    
+            @media screen and (max-width: 374px) {
+                font-size: 15px;
+            }
+        }
+
+        .post-tags {
+            a {
+                background: radial-gradient(circle at 10px center, transparent 0px, transparent 4px, $brown 4px, $brown 100%);
+                padding: 0 10px 0 20px;
+                border-radius: 10px;
+                height: 24px;
+                line-height: 27px;
+                display: inline-block;
+                color: $white;
+                font-size: 14px;
+                margin: 0 10px 10px 0;
+                
+                &:hover {
+                    background: radial-gradient(circle at 10px center, transparent 0px, transparent 4px, darken($brown, 10%) 4px, darken($brown, 10%) 100%);
+                }
+
+                @media screen and (max-width: 374px) {
+                    font-size: 11px;
+                    line-height: 22px;
+                    height: 18px;
+                }
+            }
+
+            .owp-tag-text, .owp-sep {
+                display: none;
+            }
+        }
+
+    }
+
+    #related-posts {
+        .span_1_of_3 {
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+            }
+        }
+
+        .theme-heading {
+            font-size: 17px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+
+            .text::before {
+                color: $brown;
+            }
+        }
+
+        .related-post-title a {
+            font-size: 25px;
+            line-height: 31px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 21px;
+                line-height: 25px;
+            }
+        }
+
+        time.published {
+            font-family: $vollkorn;
+            font-size: 18px;
+            line-height: 25px;
+            color: $brown;
+            
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            i {
+                display: none;
+            }
+        }
+
+
+    }
+    
+    #reply-title {
+        font-size: 24px;
+
+        @media screen and (max-width: 959px) {
+            font-size: 16px;
+        }
+    }
+
+    p.logged-in-as {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 14px;
+        color: $black !important;
+
+        @media screen and (max-width: 1780px) {
+            font-size: 1.33vw;
+            line-height: 1.55vw;
+        }
+
+        @media screen and (max-width: 1024px) {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
 }
