@@ -2,11 +2,11 @@
     //banner image container
     .elementor-8 .elementor-element.elementor-element-328fc529 {
         background-position: top -82px center !important;
-        height: 800px;
+        height: 600px;
 
         @media screen and (max-width: 1780px) {
             background-position: top -4.6vw center !important;
-            height: 44.94vw;
+            height: 38.7vw;
         }
 
         @media screen and (max-width: 450px) {
@@ -18,7 +18,7 @@
     //banner header container
     .elementor-8 .elementor-element.elementor-element-328fc529 > .elementor-container {
         max-width: 100% !important;
-        margin-left: 93px;
+        margin-left: 53px;
 
         @media screen and (max-width: 1780px) {
             margin-left: 2.6vw;
@@ -28,6 +28,10 @@
     //another banner header container
     .elementor-8 .elementor-element.elementor-element-3b7b4541 > .elementor-element-populated {
         padding: 49px 0 0 0;
+
+        @media screen and (max-width: 1780px) {
+            padding-top: 2.75vw;
+        }
 
         @media screen and (max-width: 640px) {
             padding-top: 20px;
@@ -43,28 +47,28 @@
         }
 
         &-small {
-            font-size: 84px;
-            line-height: 117px;
+            font-size: 60px;
+            line-height: 83px;
             display: block;
 
             @media screen and (max-width: 1780px) {
-                font-size: 4.72vw;
-                line-height: 6.57vw;
+                font-size: 3.37vw;
+                line-height: 4.67vw;
             }
         }
 
         &-large {
             text-transform: initial;
-            font-size: 139px;
-            line-height: 193px;
+            font-size: 99px;
+            line-height: 137px;
             display: block;
-            margin-top: -48px;
+            margin-top: -28px;
             margin-left: 114px;
 
             @media screen and (max-width: 1780px) {
-                font-size: 7.8vw;
-                line-height: 10.84vw;
-                margin-top: -2.7vw;
+                font-size: 5.56vw;
+                line-height: 7.7vw;
+                margin-top: -1.57vw;
                 margin-left: 6.4vw;
             }
         }
@@ -78,13 +82,13 @@
     .home-subheader {
         margin-top: 125px;
 
-        @media screen and (max-width: 1240px) {
-            margin-top: 10px;
+        @media screen and (max-width: 1780px) {
+            margin-top: 7vw;
         }
 
         .elementor-heading-title {
-            font-size: 65px !important;
-            line-height: 80px !important;
+            font-size: 54px !important;
+            line-height: 67px !important;
             font-family: $vollkorn !important;
             font-weight: 900 !important;
             color: $brown !important;
@@ -107,28 +111,28 @@
 
     //home summary container
     .elementor-element-b29ea0c.elementor-section.elementor-section-boxed > .elementor-container {
-        max-width: 1620px !important;
-        padding: 65px 15px 0;
+        max-width: 1200px !important;
+        padding: 35px 15px 0;
 
         @media screen and (max-width: 1780px) {
-            padding-top: 3.65vw;
+            padding-top: 2vw;
         }
     }
 
     .home-summary {
         p {
             font-family: $vollkorn;
-            font-size: 51px;
-            line-height: 71px;
+            font-size: 36px;
+            line-height: 48px;
             font-style: italic;
             margin: 0;
 
             @media screen and (max-width: 1780px) {
-                font-size: 2.87vw;
-                line-height: 3.99vw;
+                font-size: 1.8vw;
+                line-height: 2.58vw;
             }
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1024px) {
                 font-size: 19px;
                 line-height: 26px;
             }
@@ -142,12 +146,12 @@
 
     .home-icon-middle {
         img {
-            width: 280px;
-            margin-top: 40px;
-            margin-bottom: 53px;
+            width: 220px;
+            margin-top: 20px;
+            margin-bottom: 33px;
 
             @media screen and (max-width: 1275px) {
-                width: 200px;
+                width: 180px;
             }
 
             @media screen and (max-width: 959px) {
@@ -158,11 +162,17 @@
                 margin-top: 25px;
                 margin-bottom: 33px;
             }
+
+            @media screen and (max-width: 450px) {
+                width: 125px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
         }
     }
 
     .elementor-element-3201296 {
-        padding-bottom: 90px;
+        padding-bottom: 60px;
 
         @media screen and (max-width: 768px) {
             padding-bottom: 40px;
@@ -177,10 +187,10 @@
         }
 
         .elementor-element-184fe4a {
-            margin-bottom: 110px;
+            margin-bottom: 60px;
 
             @media screen and (max-width: 1780px) {
-                margin-bottom: 6.2vw;
+                margin-bottom: 3.37vw;
             }
 
             @media screen and (max-width: 768px) {
@@ -192,19 +202,19 @@
     .home-lists {
         .elementor-heading-title {
             font-family: $vollkorn !important;
-            font-size: 61px !important;
-            line-height: 85px !important;
+            font-size: 46px !important;
+            line-height: 65px !important;
             font-weight: bold;
             color: $black;
 
             @media screen and (max-width: 1780px) {
-                font-size: 3.18vw !important;
-                line-height: 4.46vw !important;
+                font-size: 2.58vw !important;
+                line-height: 3.65vw !important;
             }
 
             @media screen and (max-width: 768px) {
-                font-size: 21px !important;
-                line-height: 29px !important;
+                font-size: 20px !important;
+                line-height: 28px !important;
             }
 
             @media screen and (max-width: 374px) {
@@ -216,13 +226,13 @@
         .elementor-text-editor {
             text-align: center !important;
             font-family: $vollkorn !important;
-            font-size: 55px !important;
-            line-height: 76px !important;
+            font-size: 44px !important;
+            line-height: 64px !important;
             color: $black;
 
             @media screen and (max-width: 1780px) {
-                font-size: 2.87vw !important;
-                line-height: 3.99vw !important;
+                font-size: 2.47vw !important;
+                line-height: 3.6vw !important;
             }
 
             @media screen and (max-width: 768px) {

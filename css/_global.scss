@@ -11,13 +11,9 @@ body {
 
     .custom-hr {
         border: 0;
-        border-top: 7px solid $brown; 
+        border-top: 5px solid $brown; 
         width: 78%;
-        margin: 27px auto 24px;
-
-        @media screen and (max-width: 1300px) {
-            border-top: 5px solid $brown;
-        }
+        margin: 23px auto 20px;
 
         @media screen and (max-width: 959px) {
             border-top: 4px solid $brown;
@@ -41,6 +37,15 @@ body {
 
         > span {
             margin-top: -1px;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 40px;
+            height: 40px;
+            right: 20px;
+            bottom: 20px;
+            line-height: 40px;
+            font-size: 14px;
         }
     }
 
@@ -68,9 +73,7 @@ body {
     }
 
     #site-logo #site-logo-inner a img {
-        @media screen and (max-width: 1700px) {
-            max-width: 275px;
-        }
+        max-width: 275px;
 
         @media screen and (max-width: 1320px) {
             max-width: 225px;
@@ -119,17 +122,12 @@ body {
     #site-navigation-wrap .dropdown-menu > li > a, 
     #site-header.full_screen-header .fs-dropdown-menu > li > a, 
     .oceanwp-mobile-menu-icon a {
-        font-size: 32px;
-        line-height: 44px;
+        font-size: 26px;
+        line-height: 36px;
         letter-spacing: 0;
         text-transform: uppercase;
         color: $black;
         padding: 0;
-
-        @media screen and (max-width: 1700px) {
-            font-size: 26px;
-            line-height: 36px;
-        }
 
         @media screen and (max-width: 1240px) {
             font-size: 21px;
@@ -192,13 +190,6 @@ body {
         @media screen and (max-width: 1700px) {
             font-size: 20px;
             top: 0;
-        }
-    }
-
-    #menu-item-27 {
-        //hides 'home' menu item on desktop when it doesn't fit since the logo also goes home
-        @media screen and (max-width: 1100px) {
-            display: none;
         }
     }
 
@@ -330,6 +321,11 @@ body {
                         font-size: 38px;
                         line-height: 52px;
                     }
+
+                    @media screen and (max-width: 450px) {
+                        font-size: 35px;
+                        line-height: 48px;
+                    }
                 }
         
                 .contact-form-header-image {
@@ -351,6 +347,10 @@ body {
 
                     @media screen and (max-width: 959px) {
                         width: 156px;
+                    }
+
+                    @media screen and (max-width: 450px) {
+                        width: 125px;
                     }
                 }
             }
@@ -382,6 +382,11 @@ body {
                 line-height: 30px;
                 top: 19px;
                 left: 30px;
+            }
+
+            @media screen and (max-width: 450px) {
+                top: 10px;
+                left: 22px;
             }
 
             &.with-text {
@@ -437,6 +442,13 @@ body {
                 padding-left: 25px !important;
                 max-width: 700px !important;
             }
+
+            @media screen and (max-width: 450px) {
+                height: 45px;
+                font-size: 18px !important;
+                padding-left: 21px !important;
+                max-width: 700px !important;
+            }
         }
 
         textarea.elementor-field {
@@ -455,11 +467,19 @@ body {
                 padding-top: 16px !important;
                 padding-bottom: 16px !important;
             }
+
+            @media screen and (max-width: 450px) {
+                height: 132px;
+            }
         }
 
         .elementor-field-group {
             position: relative;
             margin-bottom: 41px !important;
+
+            @media screen and (max-width: 450px) {
+                margin-bottom: 32px !important;
+            }
         }
 
         .elementor-button {
@@ -486,6 +506,13 @@ body {
                 height: 65px;
                 font-size: 22px;
                 line-height: 65px;
+            }
+
+            @media screen and (max-width: 450px) {
+                width: 155px;
+                height: 45px;
+                font-size: 18px;
+                line-height: 47px;
             }
 
             .elementor-button-icon {
@@ -520,6 +547,11 @@ body {
         @media screen and (max-width: 1700px) {
             font-size: 22px;
             line-height: 31px;
+        }
+
+        @media screen and (max-width: 450px) {
+            font-size: 16px;
+            line-height: 21px;
         }
     }
 }
@@ -572,6 +604,10 @@ body {
         @media screen and (max-width: 1460px) {
             width: 274px;
         }
+
+        @media screen and (max-width: 450px) {
+            width: 225px;
+        }
     }
 
     .footer-address { 
@@ -588,7 +624,11 @@ body {
         .footer-phone {
             font-size: 16px;
             line-height: 8px;
-            display: block;
+            display: block; 
+
+            a {
+                color: $black;
+            }
 
             @media screen and (max-width: 1460px) {
                 font-size: 14px;
