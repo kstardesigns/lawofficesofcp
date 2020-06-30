@@ -263,29 +263,11 @@ body {
 
         & > .elementor-field-type-html.elementor-field-group {
             position: absolute;
-            width: 333px;
-            margin-left: -396px;
+            width: 207px;
+            margin-left: -227px;
             margin-bottom: 0 !important;
-            
-            @media screen and (max-width: 1860px) {
-                margin-left: -366px;
-            }
 
-            @media screen and (max-width: 1800px) {
-                width: 264px;
-                margin-left: -306px;
-            }
-
-            @media screen and (max-width: 1580px) {
-                margin-left: -296px;
-            }
-
-            @media screen and (max-width: 1400px) {
-                width: 207px;
-                margin-left: -236px;
-            }
-
-            @media screen and (max-width: 1275px) {
+            @media screen and (max-width: 1024px) {
                 position: static;
                 width: auto;
                 margin: 0 auto;
@@ -296,58 +278,25 @@ body {
                     font-family: $vollkorn;
                     font-weight: bold;
                     color: $white;
-                    font-size: 61px;
-                    line-height: 85px;
+                    font-size: 31px;
+                    line-height: 42px;
                     margin-bottom: 5px;
                     text-align: center;
 
-                    @media screen and (max-width: 1800px) {
-                        font-size: 48px;
-                        line-height: 66px;
-                    }
-
-                    @media screen and (max-width: 1400px) {
-                        font-size: 38px;
-                        line-height: 52px;
-                    }
-
                     @media screen and (max-width: 1275px) {
-                        font-size: 48px;
-                        line-height: 66px;
                         text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
                     }
 
-                    @media screen and (max-width: 959px) {
-                        font-size: 38px;
-                        line-height: 52px;
-                    }
-
                     @media screen and (max-width: 450px) {
-                        font-size: 35px;
-                        line-height: 48px;
+                        font-size: 27px;
+                        line-height: 37px;
                     }
                 }
         
                 .contact-form-header-image {
-                    width: 256px;
+                    width: 140px;
                     display: block;
                     margin: 0 auto 36px;
-
-                    @media screen and (max-width: 1800px) {
-                        width: 200px;
-                    }
-
-                    @media screen and (max-width: 1400px) {
-                        width: 156px;
-                    }
-
-                    @media screen and (max-width: 1275px) {
-                        width: 200px;
-                    }
-
-                    @media screen and (max-width: 959px) {
-                        width: 156px;
-                    }
 
                     @media screen and (max-width: 450px) {
                         width: 125px;
@@ -362,27 +311,13 @@ body {
             font-family: $vollkorn;
             font-weight: bold;
             font-style: italic;
-            font-size: 35px !important;
-            line-height: 48px;
             color: #6e6e6e !important;
             position: absolute;
-            top: 33px;
-            left: 55px;
+            font-size: 18px !important;
+            line-height: 30px;
+            top: 15px;
+            left: 18px;
             transition: all 500ms;
-
-            @media screen and (max-width: 1700px) {
-                font-size: 26px !important;
-                line-height: 36px;
-                top: 24px;
-                left: 35px;
-            }
-
-            @media screen and (max-width: 959px) {
-                font-size: 22px !important;
-                line-height: 30px;
-                top: 19px;
-                left: 30px;
-            }
 
             @media screen and (max-width: 450px) {
                 top: 10px;
@@ -390,21 +325,12 @@ body {
             }
 
             &.with-text {
-                top: -41px;
+                top: -25px;
                 left: 10px;
-                font-size: 25px !important;
+                font-size: 18px !important;
                 color: white !important;
                 transition: all 500ms;
                 text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
-
-                @media screen and (max-width: 1700px) {
-                    top: -34px; 
-                }
-
-                @media screen and (max-width: 959px) {
-                    font-size: 22px !important;
-                    top: -28px;
-                }
             }
         }
 
@@ -417,56 +343,29 @@ body {
             border: none !important;
             background-color: rgba(255,255,255,0.92) !important;
             width: 100%;
-            max-width: 1045px !important;
+            max-width: 524px !important;
             border-radius: 0;
-            height: 115px;
+            height: 58px;
             font-family: $vollkorn;
             font-weight: bold;
             font-style: italic; 
-            font-size: 35px !important;
-            line-height: 40px;
+            font-size: 18px !important;
+            line-height: 58px;
             color: $gray !important;
-            padding-left: 30px !important;
-
-            @media screen and (max-width: 1700px) {
-                height: 85px;
-                font-size: 26px !important;
-                line-height: 30px;
-                padding-left: 22px !important;
-                max-width: 775px !important;
-            }
-
-            @media screen and (max-width: 959px) {
-                height: 65px;
-                font-size: 22px !important;
-                padding-left: 25px !important;
-                max-width: 700px !important;
-            }
+            padding-left: 14px !important;
 
             @media screen and (max-width: 450px) {
                 height: 45px;
-                font-size: 18px !important;
-                padding-left: 21px !important;
-                max-width: 700px !important;
+                font-size: 16px !important;
+                padding-left: 14px !important;
+                max-width: 100% !important;
             }
         }
 
         textarea.elementor-field {
-            height: 312px;
-            padding-top: 26px !important;
-            padding-bottom: 26px !important;
-
-            @media screen and (max-width: 1700px) {
-                height: 235px;
-                padding-top: 22px !important;
-                padding-bottom: 22px !important;
-            }
-
-            @media screen and (max-width: 959px) {
-                height: 190px;
-                padding-top: 16px !important;
-                padding-bottom: 16px !important;
-            }
+            height: 156px;
+            padding-top: 16px !important;
+            padding-bottom: 16px !important;
 
             @media screen and (max-width: 450px) {
                 height: 132px;
@@ -475,43 +374,24 @@ body {
 
         .elementor-field-group {
             position: relative;
-            margin-bottom: 41px !important;
-
-            @media screen and (max-width: 450px) {
-                margin-bottom: 32px !important;
-            }
+            margin-bottom: 26px !important;
         }
 
         .elementor-button {
-            border-radius: 25px;
+            border-radius: 15px;
             background-color: $white !important;
             color: #000 !important;
-            width: 313px;
-            height: 115px;
+            width: 165px;
+            height: 60px;
             font-family: $vollkorn;
             font-weight: 900;
-            font-size: 35px;    
-            line-height: 115px;
+            font-size: 18px;
+            line-height: 60px;
             letter-spacing: 0;
-
-            @media screen and (max-width: 1700px) {
-                width: 231px;
-                height: 85px;
-                font-size: 26px;
-                line-height: 85px;
-            }
-
-            @media screen and (max-width: 959px) {
-                width: 177px;
-                height: 65px;
-                font-size: 22px;
-                line-height: 65px;
-            }
 
             @media screen and (max-width: 450px) {
                 width: 155px;
                 height: 45px;
-                font-size: 18px;
                 line-height: 47px;
             }
 
@@ -522,37 +402,20 @@ body {
     }
 
     .elementor-widget-form {
-        margin: 50px auto 20px;
-        max-width: 1045px !important;
-
-        @media screen and (max-width: 1700px) {
-            max-width: 775px !important;
-        }
-
-        @media screen and (max-width: 959px) {
-            max-width: 700px !important;
-        }
+        margin: 25px auto 10px;
+        max-width: 524px !important;
     }
 
     .elementor-widget-form + .elementor-widget-text-editor p {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 15px;
+        line-height: 21px;
         color: $gray;
         text-align: center;
         display: block;
         margin: 0 auto 20px;
         text-align: center;
         font-family: 'Minion Pro', serif; 
-
-        @media screen and (max-width: 1700px) {
-            font-size: 22px;
-            line-height: 31px;
-        }
-
-        @media screen and (max-width: 450px) {
-            font-size: 16px;
-            line-height: 21px;
-        }
+        max-width: 555px;
     }
 }
 
@@ -599,54 +462,32 @@ body {
     .footer-logo {
         display: block;
         margin: 0 auto 20px;
-        width: 344px;
-
-        @media screen and (max-width: 1460px) {
-            width: 274px;
-        }
-
-        @media screen and (max-width: 450px) {
-            width: 225px;
-        }
+        width: 240px;
     }
 
     .footer-address { 
-        font-size: 22px;
-        line-height: 31px;
+        font-size: 18px;
+        line-height: 22px;
         text-align: center !important;
         margin-bottom: 0;
-
-        @media screen and (max-width: 1460px) {
-            font-size: 18px;
-            line-height: 22px;
-        }
         
         .footer-phone {
             font-size: 16px;
-            line-height: 8px;
+            line-height: 16px;
             display: block; 
 
             a {
                 color: $black;
-            }
-
-            @media screen and (max-width: 1460px) {
-                font-size: 14px;
-                line-height: 11px;
             }
         }
     }
 
     //social 
     .footer-widget.social-widget {
-        width: 275px;
+        width: 160px;
         position: absolute;
-        bottom: 25px;
-        right: 58px;
-
-        @media screen and (max-width: 1460px) {
-            width: 150px;
-        }
+        bottom: 12px;
+        right: 30px;
 
         @media screen and (max-width: 850px) {
             position: static;
@@ -665,39 +506,24 @@ body {
         &.oceanwp-facebook {
             a {
                 background: url('https://lawofficesofcp.com/wp-content/uploads/2020/06/fb.svg') no-repeat top center;
-                width: 72px;
-                height: 80px;
-
-                @media screen and (max-width: 1460px) {
-                    width: 36px;
-                    height: 40px;
-                }
+                width: 40px;
+                height: 44.5px;
             }
         }
 
         &.oceanwp-instagram {
             a {
                 background: url('https://lawofficesofcp.com/wp-content/uploads/2020/06/insta.svg') no-repeat top center;
-                width: 72px;
-                height: 80px;
-
-                @media screen and (max-width: 1460px) {
-                    width: 36px;
-                    height: 40px;
-                }
+                width: 40px;
+                height: 44.5px;
             }
         }
 
         &.oceanwp-yelp {
             a {
                 background: url('https://lawofficesofcp.com/wp-content/uploads/2020/06/yelp.svg') no-repeat top center;
-                width: 67px;
-                height: 88px;
-
-                @media screen and (max-width: 1460px) {
-                    width: 33.5px;
-                    height: 44px;
-                }
+                width: 37px;
+                height: 49px;
             }
         }
     }

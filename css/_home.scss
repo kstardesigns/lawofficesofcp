@@ -117,19 +117,23 @@
         @media screen and (max-width: 1780px) {
             padding-top: 2vw;
         }
+
+        @media screen and (max-width: 1200px) {
+            max-width: 800px !important;
+        }
     }
 
     .home-summary {
         p {
             font-family: $vollkorn;
-            font-size: 36px;
-            line-height: 48px;
+            font-size: 32px;
+            line-height: 42px;
             font-style: italic;
             margin: 0;
 
             @media screen and (max-width: 1780px) {
                 font-size: 1.8vw;
-                line-height: 2.58vw;
+                line-height: 2.35vw;
             }
 
             @media screen and (max-width: 1024px) {
@@ -146,13 +150,9 @@
 
     .home-icon-middle {
         img {
-            width: 220px;
+            width: 180px;
             margin-top: 20px;
             margin-bottom: 33px;
-
-            @media screen and (max-width: 1275px) {
-                width: 180px;
-            }
 
             @media screen and (max-width: 959px) {
                 width: 156px;
@@ -172,10 +172,17 @@
     }
 
     .elementor-element-3201296 {
-        padding-bottom: 60px;
+        padding-bottom: 30px;
 
         @media screen and (max-width: 768px) {
-            padding-bottom: 40px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5261f6f,
+    .elementor-8 .elementor-element.elementor-element-bbfcb10 {
+        @media screen and (max-width: 768px) {
+            margin-bottom: 10px !important;
         }
     }
 
@@ -187,10 +194,10 @@
         }
 
         .elementor-element-184fe4a {
-            margin-bottom: 60px;
+            margin-bottom: 30px;
 
             @media screen and (max-width: 1780px) {
-                margin-bottom: 3.37vw;
+                margin-bottom: 1.69vw;
             }
 
             @media screen and (max-width: 768px) {
@@ -202,14 +209,18 @@
     .home-lists {
         .elementor-heading-title {
             font-family: $vollkorn !important;
-            font-size: 46px !important;
-            line-height: 65px !important;
+            font-size: 34px !important;
+            line-height: 50px !important;
             font-weight: bold;
             color: $black;
 
             @media screen and (max-width: 1780px) {
-                font-size: 2.58vw !important;
-                line-height: 3.65vw !important;
+                font-size: 1.91vw !important;
+                line-height: 2.8vw !important;
+            }
+
+            @media screen and (max-width: 1024px) {
+                line-height: 36px !important;
             }
 
             @media screen and (max-width: 768px) {
@@ -226,13 +237,13 @@
         .elementor-text-editor {
             text-align: center !important;
             font-family: $vollkorn !important;
-            font-size: 44px !important;
-            line-height: 64px !important;
+            font-size: 30px !important;
+            line-height: 40px !important;
             color: $black;
 
             @media screen and (max-width: 1780px) {
-                font-size: 2.47vw !important;
-                line-height: 3.6vw !important;
+                font-size: 1.85vw !important;
+                line-height: 2.25vw !important;
             }
 
             @media screen and (max-width: 768px) {
