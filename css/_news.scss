@@ -63,7 +63,7 @@
         }
         .elementor-post {
             border: 0;
-            border-bottom: 7px solid $brown;
+            border-bottom: 5px solid $brown;
             margin: 0 auto;
             padding: 40px 0;
 
@@ -72,12 +72,10 @@
             }
 
             @media screen and (max-width: 1300px) {
-                border-bottom: 5px solid $brown;
                 padding: 0 0 30px;
             }
 
             @media screen and (max-width: 1024px) {
-                border-bottom: 5px solid $brown;
                 padding: 30px;
             }
 

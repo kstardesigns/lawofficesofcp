@@ -86,7 +86,7 @@
             margin-top: 7vw;
         }
 
-        .elementor-heading-title {
+        .elementor-heading-title { 
             font-size: 54px !important;
             line-height: 67px !important;
             font-family: $vollkorn !important;
@@ -213,6 +213,7 @@
             line-height: 50px !important;
             font-weight: bold;
             color: $black;
+            margin-bottom: 10px;
 
             @media screen and (max-width: 1780px) {
                 font-size: 1.91vw !important;
@@ -221,11 +222,13 @@
 
             @media screen and (max-width: 1024px) {
                 line-height: 36px !important;
+                margin-bottom: 5px;
             }
 
             @media screen and (max-width: 768px) {
                 font-size: 20px !important;
                 line-height: 28px !important;
+                margin-bottom: 0;
             }
 
             @media screen and (max-width: 374px) {
