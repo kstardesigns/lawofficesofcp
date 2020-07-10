@@ -1,10 +1,10 @@
 .page-id-19 {
     .elementor-19 .elementor-element.elementor-element-767e94cf > .elementor-container {
         max-width: 1200px;
-        padding: 40px 20px 80px;
+        padding: 40px 20px 0;
 
         @media screen and (max-width: 1780px) {
-            padding: 2vw 20px 4.49vw;
+            padding: 2vw 20px 0;
         }
 
         @media screen and (max-width: 1300px) {
@@ -12,11 +12,11 @@
         }
 
         @media screen and (max-width: 959px) {
-            padding-top: 10px; 
+            padding-top: 20px; 
         }
 
         @media screen and (max-width: 768px) {
-            padding: 0 20px 40px;
+            padding: 20px 20px 0;
         }
 
         .elementor-element.elementor-element-7c20e9aa {
@@ -31,34 +31,88 @@
         }
     }
 
+    .elementor-19 .elementor-element.elementor-element-2ecb531c {
+        @media screen and (max-width: 1200px) {
+            width: 65%;
+        }
+
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+
+    .elementor-19 .elementor-element.elementor-element-7d3dd5bc {
+        @media screen and (max-width: 1200px) {
+            width: 35%;
+        }
+
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+
+    .elementor-19 .elementor-element.elementor-element-767e94cf {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+
+        @media screen and (max-width: 1024px) {
+            padding: 0;
+        }
+    }
+
+    .elementor-element-767e94cf .elementor-row {
+        @media screen and (max-width: 1024px) {
+            flex-direction: column;
+        }
+    }
+
+    .elementor-column-gap-default>.elementor-row>.elementor-column.elementor-element-7d3dd5bc>.elementor-element-populated {
+        padding: 10px 0;
+    }
+
+    .elementor-19 .elementor-element.elementor-element-7c20e9aa {
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .elementor-19 .elementor-element.elementor-element-767e94cf>.elementor-container .elementor-element.elementor-element-7c20e9aa iframe {
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
+    }
+
+    .elementor-section-wrap>.elementor-section.elementor-section-boxed.elementor-element-767e94cf>.elementor-container {
+        @media screen and (max-width: 1024px) {
+            max-width: 100% !important;
+        }
+    }
+
     .elementor-19 .elementor-element.elementor-element-7c20e9aa > .elementor-widget-container {
         margin: 0;
     }
 
     .elementor-19 .elementor-element.elementor-element-72fac1d1 {
-        max-width: 1200px;
-        padding: 40px 20px 80px;
+        max-width: 1200px !important;
+        padding: 0 20px 60px;
         margin: 0 auto;
 
         @media screen and (max-width: 1780px) {
-            padding: 2vw 20px 4.49vw;
+            padding: 0 20px 40px;
         }
 
-        @media screen and (max-width: 1300px) {
-            padding-top: 3vw;
-        }
-
-        @media screen and (max-width: 959px) {
-            padding-top: 10px; 
+        @media screen and (max-width: 1024px) {
+            padding-top: 20px;
         }
 
         @media screen and (max-width: 768px) {
-            padding: 0 20px 40px;
+            padding: 20px 20px 20px;
         }
     }
 
     .elementor-19 .elementor-element.elementor-element-72fac1d1 > .elementor-container {
-        max-width: 1200px;
+        max-width: 1200px !important;
     }
 
 
@@ -75,9 +129,9 @@
         margin-bottom: 35px;
 
         @media screen and (max-width: 1200px) {
-            font-size: 3.08vw;
-            line-height: 3.25vw;
-            margin-bottom: 2.92vw;
+            font-size: 2.58vw;
+            line-height: 2.75vw;
+            margin-bottom: 2.42vw;
         }
 
         @media screen and (max-width: 768px) {
@@ -99,7 +153,8 @@
         }
 
         @media screen and (max-width: 768px) {
-            //left off heres
+            font-size: 18px;
+            line-height: 23px;
         }
     }
 
@@ -130,6 +185,11 @@
             font-size: 2.67vw;
             line-height: 3.17vw;
         }
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            line-height: 23px;
+        }
     }
 
     .contact-address {
@@ -143,6 +203,11 @@
             font-size: 2.25vw;
             line-height: 2.67vw;
             margin-bottom: 1.67vw;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            line-height: 23px;
         }
     }
 }
