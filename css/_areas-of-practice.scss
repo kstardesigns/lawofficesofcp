@@ -1,5 +1,5 @@
 //areas of practice, dwi defense, criminal law, family law
-.page-id-12, .page-id-391, .page-id-21, .page-id-20 {
+.page-id-12, .page-id-391, .page-id-21, .page-id-20, .page-id-1577 {
     .areas-banner {
         .elementor-widget-heading .elementor-heading-title {
             font-family: $vollkorn;
@@ -278,5 +278,30 @@
 
     .custom-hr {
         width: 63%;
+    }
+}
+
+//mediation only
+.page-id-1577 {
+    @media screen and (max-width: 1200px) {
+        .elementor-section.elementor-section-boxed.elementor-element-d427bc9 {
+            background-size: cover;
+        }
+    }
+
+    .elementor-section.elementor-section-boxed.elementor-element-d427bc9>.elementor-container {
+        max-width: 100% !important;
+        height: 350px;
+
+        @media screen and (max-width: 1200px) {
+            height: 30.4vw;
+            min-height: 200px;
+        }
+    }
+
+    .areas-banner {
+        .elementor-widget-heading .elementor-heading-title {
+            color: #787a7e;
+        }
     }
 }
